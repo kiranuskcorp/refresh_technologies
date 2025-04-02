@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        * {
+            font-style: italic;
+        }
+
+        p {
+            color: red;
+        }
+
+        .myClass {
+            text-decoration: underline;
+        }
+
+        #myId {
+            font-family: monospace;
+        }
+
+        p.myClass#myId {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="myClass" id="myId">I match everything.</p>
+    <p>I match the universal and type selectors only.</p>
+</body>
+
+</html>

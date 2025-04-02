@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Internal and External Styles</title>
+
+    <!-- Internal CSS Styling -->
+    <style>
+        p {
+            color: blue;
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+    <!-- And to link CSS file to html we use <link> tag -->
+    <link href="./styles/external.css">
+</head>
+
+<body>
+
+    <!-- Inline CSS Styling -->
+    <p style="color: blue; font-size: 16px; text-align: center;">
+        This is a paragraph with inline styles.
+    </p>
+
+    <div>
+        an inline style has the highest priority, and will override external and internal styles and browser defaults
+    </div>
+</body>
+
+</html>

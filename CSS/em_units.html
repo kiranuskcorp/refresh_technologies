@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        p {
+            font-size: 2em;
+            color: #0077cc;
+        }
+
+        .parent-element {
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        p {
+            font-size: 2em;
+            color: #0077cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>This is a paragraph with the font size set to 2em</p>
+        <p>The p element is set to 2em which means it is 2 times the font size of the parent element. 2 x 20 is 40px so
+            the p element is 40px.</p>
+    </div>
+    <div class="parent-element">
+        This is the nearest parent
+        <div class="child-element">
+            <p>This is the child</p>
+        </div>
+    </div>
+</body>
+
+</html>

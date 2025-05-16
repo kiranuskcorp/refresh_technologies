@@ -1,0 +1,19 @@
+{
+  "name": "npm-init-app",
+  "version": "1.0.0",
+  "description": "creating react app with npm init and bundle it",
+  "license": "ISC",
+  "author": "Kiran Gangone",
+  "type": "commonjs",
+  "default": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
